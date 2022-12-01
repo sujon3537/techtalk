@@ -1,0 +1,665 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol, ul{
+    list-style: none;
+}
+/* ===============================================
+            Dark Light Design part start
+===============================================     */
+.dlMode{
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+.dlMode .dark,
+.dlMode .light{
+    font-size: 24px;
+}
+.dlMode .modeText{
+    display: inline-block;
+    width: 140px;
+    position: absolute;
+    top: 3px;
+    left: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.darkmode{
+    background: #000;
+    color: #fff;
+}
+.darkmode h4,
+.darkmode p{
+    color: #b8b4b4 !important;
+}
+.darkmode .grouplist,
+.darkmode .search input{
+    box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25) !important;
+}
+.darkmode .grouplist .box{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+.lightmode{
+    background: #fff;
+}
+/* ===============================================
+            Dark Light Design part end
+===============================================     */
+/* ===============================================
+            ForgotPassword Design part start
+===============================================     */
+.resetPass-part{
+    background: #5F35F5;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.resetPass-part .box{
+    background: #fff;
+    padding: 60px 45px;
+    text-align: center;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    border-radius: 8px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.resetPass-part .icon{
+    font-size: 65px;
+    color: #5F35F5;
+}
+.resetPass-part .box h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #11175D;
+    margin: 15px 0;
+}
+.resetPass-part .box p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4d4d4dc4;
+}
+.resetPass-part .box .input{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+/* ===============================================
+            ForgotPassword Design part end
+===============================================     */
+/* ===============================================
+            Registration part start
+===============================================     */
+.registration-part .css-mhc70k-MuiGrid-root>.MuiGrid-item{
+    padding: 0 !important;
+}
+.registration-part .box{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+.registration-part .box .left h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #11175D;
+    margin: 0;
+    margin-top: 100px;
+}
+.registration-part .box .left p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #11175D;
+    margin: 0;
+}
+.registration-part .box .left .MuiFormHelperText-root{
+    color: red;
+    font-size: 14px;
+}
+.registration-part .box .left button{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* ===============================================
+            Registration part End
+===============================================  */
+/* ===============================================
+            Login part start
+===============================================  */
+.login-part .css-mhc70k-MuiGrid-root>.MuiGrid-item{
+    padding: 0 !important;
+}
+.login-part .box{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+.login-part .box .left h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #03014C;
+    margin: 0;
+    margin-top: 100px;
+}
+.login-part .box .left .loginOption{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.login-part .box .left .loginOption .option{
+    display: inline-block;
+    border: 1px solid rgba(3, 0, 77, .25);
+    border-radius: 8px;
+    padding: 18px 30px;
+    margin-right: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.login-part .box .left .loginOption .option img{
+    position: absolute;
+    top: 17px;
+    left: 30px;
+}
+.login-part .box .left .loginOption .option p{
+    display: inline-block;
+    padding-left: 30px;
+    color: #03014C;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.login-part .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 0;
+}
+.login-part .box .left .MuiFormHelperText-root{
+    color: red;
+    font-size: 14px;
+}
+.link{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px !important;
+    margin-top: 15px !important;
+    color: #03014C;
+}
+.link a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #EA6C00;
+    text-decoration: none;
+}
+.login-part .pass{
+    position: relative;
+    width: 368px;
+}
+.login-part .pass .eye{
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+/* ===============================================
+            Login part End
+===============================================  */
+/* ===============================================
+            Leftbar part start
+===============================================  */
+.leftbar{
+    background: #5F35F5;
+    height: 100vh;
+    margin: 25px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+.leftbar .profilepicbox{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.leftbar .profilepic{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.leftbar .profilepicbox .overlay{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.26);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.leftbar .profilepicbox:hover .overlay{
+    opacity: 1;
+}
+.leftbarModalBox .profilepicbox{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.leftbarModalBox .img-preview{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/* .leftbarModalBox .img-preview img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+} */
+.leftbarModalBox .profilepic{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.leftbarModalBox button{
+    padding: 8px 20px;
+    background: #5F35F5;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+.leftbar h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 8px;
+}
+.leftbarModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftbarModalBox{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    background: #fff;
+}
+.leftbarUserInfo li{
+    border-bottom: 1px solid #11175D;
+    padding: 10px 0;
+}
+.leftbarUserInfo li span{
+    font-family: 'Open Sans', sans-serif;
+    color: #11175D;
+    font-weight: bold;
+}
+.leftbar ul li{
+    margin-top: 15px;
+    width: 90%;
+    margin-left: auto;
+    padding: 15px 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+}
+.leftbar .active:after{
+    content: "";
+    width: 8px;
+    height: 100%;
+    background: #5F35F5;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.leftbar .active{
+    background: #fff;
+}
+.leftbar .Icon{
+    font-size: 40px;
+    color: #BAD1FF;
+    margin-left: -15px;
+}
+.leftbar .active .Icon{
+    color: #5F35F5;
+}
+/* ===============================================
+            Leftbar part End
+===============================================  */
+/* ===============================================
+            Searchbar part Start
+===============================================  */
+.search{
+    margin-top: 25px;
+    position: relative;
+}
+.search input{
+    width: 100%;
+    padding: 15px 60px;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    border-radius: 20px;
+}
+.search .searchIcon{
+    position: absolute;
+    top: 50%;
+    left: 23px;
+    transform: translateY(-50%);
+}
+.search .dots{
+    position: absolute;
+    top: 55%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+/* ===============================================
+            Searchbar part End
+===============================================  */
+/* ===============================================
+            Grouplist part Start
+===============================================  */
+.grouplist{
+    width: 100%;
+    height: 286px;
+    padding: 15px 45px;
+    margin-top: 30px;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    overflow-y: scroll;
+    position: relative;
+}
+.grouplist h2{
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.grouplist .dots{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 20px;
+}
+.groupHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.grouplist .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0, 25%);
+    padding: 10px 0;
+}
+.grouplist .box:last-child{
+    border-bottom: 0;
+}
+.grouplist .box .img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.grouplist .box .name h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.grouplist .box .name h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4d4d4dc4;
+    margin-top: 5px;
+}
+.grouplist .box .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grouplist .btn button{
+    padding: 8px 20px;
+    background: #5F35F5;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+.createGrpModal button{
+    width: 100%;
+    padding: 14px 20px;
+    margin-top: 10px;
+    background: #5F35F5 !important;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+.createGrpModal .upGrpImgBtn{
+    padding: 10px 20px;
+    width: 40%;
+}
+/* ===============================================
+            Grouplist part End
+===============================================  */
+/* ===============================================
+            Friendlist part Start
+===============================================  */
+.frndlist{
+    height: 326px;
+    padding: 15px 15px;
+    margin-top: 25px;
+}
+.frndlist .box .img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.frndlist .box .name h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.frndlist .box .name h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #4d4d4dc4;
+    margin-top: 5px;
+}
+.frndlist .box .btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.userlistst .box .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frndlist .box .btn p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: #4d4d4dc4;
+    margin-top: 5px;
+}
+/* ===============================================
+            Friendlist part End
+===============================================  */
+/* ===============================================
+            Chatting part Start
+===============================================  */
+.chatFriendList{
+    height: 290px;
+    padding: 15px 45px;
+}
+/* =========================== */
+.chatting-part{
+    width: 100%;
+    height: 670px;
+    padding: 15px 45px;
+    margin-top: 30px;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    border-radius: 20px;
+}
+.chatting-part .topArea{
+    display: flex;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.25);
+    padding-bottom: 24px;
+}
+.chatting-part .topArea .info{
+    display: flex;
+    align-items: center;
+    width: 96%;
+}
+.chatting-part .topArea .info .image{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 30px;
+    position: relative;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.09)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.2));
+}
+.chatting-part .topArea .info .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.chatting-part .topArea .info .image .circle{
+    width: 15px;
+    height: 15px;
+    background: #00FF75;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.chatting-part .topArea .info .name h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.chatting-part .topArea .info .name p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.chatting-part .topArea .dots{
+    font-size: 20px;
+    color: #5F35F5;
+    width: 4%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.chatting-part .chatArea{
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.chatting-part .chatArea .msg{
+    display: flex;
+    position: relative;
+}
+.chatting-part .chatArea .msg p{
+    margin-top: 45px;
+    padding: 13px 45px;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+.chatting-part .chatArea .msg .msgImg{
+    padding: 8px;
+    margin-top: 45px;
+}
+.chatting-part .chatArea .msg .msgImg img{
+    width: 300px;
+}
+.chatting-part .chatArea .msg .date{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    bottom: -35px;
+}
+.chatting-part .msgBox .msgInput{
+    padding: 25px 0;
+    position: relative;
+}
+.chatting-part .msgBox .msgInput input{
+    background: #F1F1F1;
+    border: 0;
+    padding: 15px;
+    width: 85%;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+.chatting-part .msgBox .msgInput input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.60);
+}
+.chatting-part .msgBox .msgInput .camIcon{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    position: absolute;
+    top: 38px;
+    right: 71px;
+}
+.chatting-part .msgBox .msgInput button{
+    background: #5F35F5;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    padding: 12px;
+    margin-left: 19px;
+}
+/* ===============================================
+            Chatting part End
+===============================================  */
